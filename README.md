@@ -1,0 +1,1 @@
+# aplikacje-mobilne-smolenski-185IC-A2
