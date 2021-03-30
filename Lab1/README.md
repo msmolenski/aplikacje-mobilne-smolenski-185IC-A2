@@ -8,16 +8,16 @@ Kalkulator wykonano przy użyciu Expo, co pozwoliło na proste stworzenie pierws
 
 Dodawanie:
 
-![add](images\add.png)
+![add](images/add.png)
 
 Odejmowanie:
 
-![subtract](images\subtract.png)
+![subtract](images/subtract.png)
 
 Mnożenie:
 
-![multiplicate](images\multiplicate.png)
+![multiplicate](images/multiplicate.png)
 
 Dzielenie:
 
-![divide](images\divide.png)
+![divide](images/divide.png)
