@@ -10,7 +10,7 @@ export default class App extends Component {
     inputValue2: 0,
     result: 0
   }
-  onButtonPressed = function() { this.setState({ text:this.state.inputValue })}
+  
   _handleTextChange1 = inputValue1 => { this.setState({ inputValue1 }); 
   };
   _handleTextChange2 = inputValue2 => { this.setState({ inputValue2 }); 
@@ -53,7 +53,8 @@ export default class App extends Component {
           keyboardType = 'numeric'
           onChangeText={this._handleTextChange1}
           style={{ height: 40, 
-            borderColor: 'gray', 
+            borderColor: 'chocolate', 
+            backgroundColor: 'lavender',
             borderWidth: 2, 
             autoFocus: true,
             textAlign: 'center',
@@ -64,8 +65,9 @@ export default class App extends Component {
           value={this.state.inputValue2}
           keyboardType = 'numeric'
           onChangeText={this._handleTextChange2}
-          style={{ height: 40, cd,
-            borderColor: 'gray', 
+          style={{ height: 40,
+            borderColor: 'chocolate', 
+            backgroundColor: 'lavender',
             borderWidth: 2, 
             textAlign: 'center',
             width: 100,}}
@@ -74,16 +76,16 @@ export default class App extends Component {
 
         <View style={styles.buttonContainer}>
             <View style={styles.buttonStyle}>
-              <Button color="grey" title='+' onPress={this.add.bind(this)} style={styles.buttonStyle}/>
+              <Button color="chocolate" title='+' onPress={this.add.bind(this)} style={styles.buttonStyle}/>
             </View>
             <View style={styles.buttonStyle}>
-              <Button color="grey" title='-' onPress={this.subtract.bind(this)} style={styles.buttonStyle}/>
+              <Button color="chocolate" title='-' onPress={this.subtract.bind(this)} style={styles.buttonStyle}/>
             </View>
             <View style={styles.buttonStyle}>
-              <Button color="grey" title='*' onPress={this.multiplicate.bind(this)} style={styles.buttonStyle}/>
+              <Button color="chocolate" title='*' onPress={this.multiplicate.bind(this)} style={styles.buttonStyle}/>
             </View>
             <View style={styles.buttonStyle}>
-              <Button color="grey" title='/' onPress={this.divide.bind(this)} style={styles.buttonStyle}/>
+              <Button color="chocolate" title='/' onPress={this.divide.bind(this)} style={styles.buttonStyle}/>
             </View>
           </View>
 
@@ -91,7 +93,6 @@ export default class App extends Component {
           {this.state.text}
         </Text>
       
-        
       </View>
     );
   }
@@ -103,7 +104,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
+    backgroundColor: 'grey',
   },
   input: {
     flexDirection: 'row',
@@ -115,8 +116,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     color: '#34495e',
-    borderColor: 'grey',
-    borderWidth: 3, backgroundColor: 'grey'
+    borderColor: 'chocolate',
+    borderWidth: 3, backgroundColor: 'chocolate'
   },
   buttonContainer: {
     flexDirection: 'row',
