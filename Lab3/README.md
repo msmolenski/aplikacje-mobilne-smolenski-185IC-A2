@@ -1,27 +1,42 @@
-# Lab2
+# Lab3
 Do stworzenia projektu wykorzystano Expo.
 
-W ramach laboratorium należało utowrzyć 3 ekrany za pomocą react-navigation, a do przemieszczania się użyto stack-navigator.
-
-Na ekranach umieszczono informacje o spread operator, czym są rest parameters oraz do czego służy 'hook' useState.
-
-Dodatkowo ostylowano ekarny przy użyciu Flexboxa. Style zostały umieszczone w pliku styles.js.
+W ramach laboratorium wykonano:
+ - widok z wygenerowanymi 100 pseudolosowymi liczbami z możliwością ponownego wygenerowania i posortowania;
+ - ekran z zaimplementowanym leniwym ładowaniem zawierającym losowo wygenerowany string;
+ - widok z progresem krokowym zawierający ActivityIndicator.
 
 
 ## Zrzuty ekranu
 
 Strona główna:
 
-![home](nav-app/images/home.png)
+![home](images/home.png)
 
-Spread Operator:
+Wygenerowane losowe liczby:
 
-![spreadOperator](nav-app/images/spreadOperator.png)
+![random](images/random.png)
 
-Rest Parameters:
+Posortowane liczby:
 
-![rest](nav-app/images/rest.png)
+![sorted](images/sorted.png)
 
-useState:
+Lazy loading - ładowanie:
 
-![useState](nav-app/images/useState.png)
+![loading](images/loading.png)
+
+Lazy loading - załadowany string:
+
+![loading](images/loaded.png)
+
+Step progress - krok pierwszy:
+
+![step1](images/step1.png)
+
+Step progress - krok drugi:
+
+![step1](images/step2.png)
+
+Step progress - krok trzeci:
+
+![step1](images/step3.png)
