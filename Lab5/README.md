@@ -1,7 +1,7 @@
 # Lab5
-Repozytorium zawiera wybrane fragmenty aplikacji sterującej dronem wykorzystującej sensory urządzenia mobilnego.
+Repozytorium zawiera wybrane fragmenty aplikacji sterującej dronem wykorzystującej sensory urządzenia mobilnego oraz API udostępniane przez firmę DJI.
 
-Laboratorium miało na celu zapoznanie się z obsługą gestów użytkownika. W przedstawionym przypadku gestami użytkownaika były odchylenia smartfonu i pozwalały na sterowanie wartością azymutu, pochylenia i przechylenia drona.
+Laboratorium miało na celu zapoznanie się z obsługą gestów użytkownika. W przedstawionym przypadku gestami użytkownika były odchylenia smartfonu i pozwalały na sterowanie wartością azymutu, pochylenia i przechylenia drona.
 
 
 ## Zrzuty ekranu
