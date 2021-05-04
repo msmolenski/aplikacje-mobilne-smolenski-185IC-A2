@@ -1,0 +1,21 @@
+
+ysquid:S14507"bRemove the "mScreenJoystickLeft" field and declare it as a local variable in the relevant methods.(Ï¸Íà
+usquid:S14501"YRemove the "mBtnMotors" field and declare it as a local variable in the relevant methods.(£“¯Öıÿÿÿÿ
+@squid:S1905†"(Remove this unnecessary cast to "float".(ÎŞÑ¤
+qsquid:S14502"ZRemove the "mBtnTakeOff" field and declare it as a local variable in the relevant methods.(²Ìå•
+|squid:S1450/"eRemove the "mBtnEnableVirtualStick" field and declare it as a local variable in the relevant methods.(¼œåø
+Esquid:S1905‡"(Remove this unnecessary cast to "float".(ÀÄÙÿÿÿÿÿ
+ssquid:S14503"WRemove the "mBtnLand" field and declare it as a local variable in the relevant methods.(ãÁ½Šûÿÿÿÿ
+nsquid:S3776H"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(¨Œşÿÿÿÿ
+@squid:S1905‰"(Remove this unnecessary cast to "float".(ƒÂ–è
+qsquid:S3776¦"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(¡é††8ÒÏ¢‘/
+qsquid:S3776Û"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(µÍ¶ó8ÒÏ¢‘/
+@squid:S1905ˆ"(Remove this unnecessary cast to "float".(Éµ‰Ò
+¥squid:S1186•"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¼¸Ìÿÿÿÿÿ8ÒÏ¢‘/
+Esquid:S1905…"(Remove this unnecessary cast to "float".(€¡Ç£øÿÿÿÿ
+j
+squid:S128â"LEnd this switch case with an unconditional break, return or throw statement.(éœ€¤8ÒÏ¢‘/
+‚squid:S14500"fRemove the "mBtnDisableVirtualStick" field and declare it as a local variable in the relevant methods.(™Ë´¡ÿÿÿÿÿ
+:squid:S3626Ñ"Remove this redundant jump.(ûÁİ…8´”Ö¢‘/
+™squid:S1186”"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ĞŠß±
+Vsquid:UselessImportCheck"-Remove this unused import 'android.Manifest'.(¦øïúÿÿÿÿ
