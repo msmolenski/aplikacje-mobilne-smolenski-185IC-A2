@@ -1,4 +1,4 @@
-# Lab5
+# Lab4
 Repozytorium zawiera wybrane fragmenty aplikacji sterującej dronem wykorzystującej sensory urządzenia mobilnego oraz API udostępniane przez firmę DJI.
 
 Laboratorium miało na celu obsługę danych wprowadzanych przez użytkownika
@@ -25,6 +25,6 @@ Metoda aktualizuje wartości wychyleń joysticka, które przekazywane są do zmi
 
 ![JoystickLeft](images/JoystickLeft.png)
 
-Dodatkowo zaimplementowane zostało logowanie w celu weryfikacji konta developerskiego:
+Dodatkowo zaimplementowane zostało logowanie, które jest wymuszane w celu weryfikacji konta developerskiego:
 
 ![login](images/login.png)
