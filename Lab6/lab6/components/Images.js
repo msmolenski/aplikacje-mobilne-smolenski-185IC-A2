@@ -21,11 +21,12 @@ export default function Images({ navigation }) {
       <View style={styles.pages.column}>
         <Text style={styles.pages.text}>Obraz z wykorzystaniem URI</Text>
       </View>
-        <Image style={styles.pages.img} source={{ uri: 'https://samequizy.pl/wp-content/uploads/2018/08/filing_images_adf42417a130.jpg' }} />
-        <View style={styles.pages.column}>
+      <Image style={styles.pages.img}
+        source={{ uri: 'https://samequizy.pl/wp-content/uploads/2018/08/filing_images_adf42417a130.jpg' }} />
+      <View style={styles.pages.column}>
         <Text style={styles.pages.text}>Obraz z wykorzystaniem require</Text>
-        </View>
-        <Image style={styles.pages.img} source={require('./images/shrek.png')}/>
+      </View>
+      <Image style={styles.pages.img} source={require('./images/shrek.png')} />
     </View>
   );
 }
