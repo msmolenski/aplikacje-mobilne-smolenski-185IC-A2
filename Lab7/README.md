@@ -1,4 +1,4 @@
-# Lab6
+# Lab7
 Do stworzenia projektu wykorzystano React Native Cli.
 
 W ramach laboratorium wykonano aplikację ToDo komunikującą się z bazą danych.
